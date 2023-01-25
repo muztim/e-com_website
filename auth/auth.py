@@ -8,4 +8,4 @@ auth_bp = Blueprint('auth_bp', __name__, template_folder='templates',
 
 @auth_bp.route('/')
 def login():
-    return render_template()
+    return render_template('/auth/login.html')
